@@ -7,3 +7,5 @@ yield(collection[1])
 i = i + 1 
 end
 end
+
+my_all?({1,2,3}) { |i| i < 2}
